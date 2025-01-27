@@ -21,7 +21,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v4
         with:
           args: >
-            -Dsonar.organization=cidinene
+            -Dsonar.organization=ceciliafv98
             -Dsonar.verbose=true    
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
